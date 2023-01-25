@@ -1,15 +1,13 @@
 import './assets/styles/index.css'
 
-import { Tickets } from './components/Tickets'
-
-
+import MyBox from './components/MyBox/MyBox';
 
 
 function App() {
 return (
 
     <div className="App">
-      <Tickets/>
+      <MyBox/>
     </div>
   );
 }
