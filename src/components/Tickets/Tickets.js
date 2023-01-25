@@ -2,7 +2,6 @@ import './tickets.scss'
 import data from '../../data.js'
 
 export const unresolvedTickets = () => {
-  console.log(data);
   return (
     <div className='tickets'>
       <div className='tickets__desc'>

@@ -1,10 +1,13 @@
-import Tickets from '../Tickets/Tickets'
+import './myBox.scss'
 
+import Tickets from '../Tickets/Tickets'
+import { Tasks } from '../Tasks'
 
 export const myBox = () => {
   return(
-    <section>
+    <section className='details'>
       <Tickets/>
+      <Tasks/>
     </section>
   )
 }
