@@ -1,0 +1,42 @@
+// .form__label {}
+
+p {
+  margin: 18px 0;
+}
+
+.tasks__label {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 32px;
+  border-bottom: 1px solid #DFE0EB;
+}
+
+.tasks__input {
+  border: none;
+  padding: 18px 0px 14px;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.tasks__btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer !important;
+}
+
+.plusbtn {
+  background-color: transparent !important;
+  border: none;
+}
+
+.tasks__item {
+  border-bottom: 1px solid #DFE0EB;
+}
+
+.todo {
+  margin-bottom: 14px;
+}
